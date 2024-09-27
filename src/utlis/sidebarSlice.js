@@ -8,11 +8,14 @@ const sidebarSlice = createSlice({
     reducers:{
         changeMenu :(state)=>{
             state.ismenuOpen = !state.ismenuOpen;
+        },
+        closeMenu:(state)=>{
+           state.ismenuOpen = false;
         }
     }
 });
 
 
-export const {changeMenu} = sidebarSlice.actions;
+export const {changeMenu,closeMenu} = sidebarSlice.actions;
 
 export default sidebarSlice.reducer;

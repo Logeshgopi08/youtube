@@ -17,7 +17,7 @@ const Header = () => {
           alt="menu logo"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkNEBO2OUKQjP-RSbIZae3jIq76g3rMrn9vQ&s"
         />
-        <img className="w-36"
+        <img className="w-36" 
           alt="youtube-logo"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQ6Ng9VkCd9fx4Zve31ePZmRDM7eJlNdLLFf5-J8nEbcftV2gpX-hPO_n3Pwm0aYJEQ&usqp=CAU"
         />

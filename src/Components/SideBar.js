@@ -1,17 +1,20 @@
 import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 
 const SideBar = () => {
    const sidebar = useSelector((store)=>store.sidebar.ismenuOpen);
 
    if(!sidebar) return null;
 
-  return <div className="col-span-1 shadow-lg pl-5 h-full  ">
+  return <div className="w-44 shadow-lg pl-5 h-full  ">
     
     <ul className="py-2">
-        <li >Home</li>
-        <li className="py-1">Shorts</li>
-        <li  className="py-1">Video</li>
-        <li  className="py-1">Trailer</li>
+        <li >
+          <Link to={"/"}>Home</Link>
+          </li>
+        <li className="py-2">Shorts</li>
+        <li  className="py-2">Video</li>
+        <li  className="py-2">Trailer</li>
         <li>Movies</li>
     </ul>
 
